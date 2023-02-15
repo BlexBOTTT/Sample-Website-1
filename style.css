@@ -1,0 +1,17 @@
+body{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+body{
+    color: white;
+    font-size: 25px;
+    
+}
+
+div{
+    background-color: green;
+    color: black;
+}

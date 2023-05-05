@@ -1,17 +1,162 @@
-body{
-    background: black;
-    background-repeat: no-repeat;
-    background-size: cover
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+    zoom: 1.3;
+}
+
+    header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #b4b4b4; /* Dark grey color */
+        width: 100%;
+        height: 110px;
+        
+    }
+
+        header .header-brand {
+            display: block;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 20px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            color: black;
+            font-weight: 750;
+        }   
+
+        header nav ul {
+            margin: auto;
+            display: block;
+            width: fit-content; /* to center */
+        }
+
+        header nav ul li {
+            float: left;
+            list-style-type: none;
+            padding: 0 16px;
+        }
+
+        header nav ul li a {
+            text-transform: uppercase;
+        
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+
+            
+        }
+
+        header .header-click_me {
+            visibility: hidden;
+            position: absolute; /* to position the button */
+            top: 50%; /* 78%, to vertically center the button */
+            right: 20px; /* to move the button to the right side */
+            transform: translateY(-50%); /* to adjust the vertical position */
+
+
+            display: inline-block; /* to align with the navigation bar */
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+            padding: 5px 20px; /* to create padding around the text */
+            border: 1px solid black; /* to add border */
+            border-radius: 3px; /* to add rounded corners to the border */
+            margin-right: 20px; /* to move the button to the left of the navigation bar */
+        }
+
+@media only screen and (min-width: 900px) {
+    header .header-click_me { 
+        visibility: visible;
+    }
+}
+
+main {
+    margin: 130px 30px;
+    background-color: #eaaeae;
+  }
+
+  main .row {
+    display: flex;
+  }
+
+  main .column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  main .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .column-left {
+    max-width: 300px;
+  }
+
+  .column-right {
+    min-width: 300px;
+  }
+
+  
+  main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  main figure img {
+    display: block;
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  
+  main figure a {
+    text-align: center;
+  }
+  
+
+
+
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #8d8c8c;
+    overflow: hidden; /*trick so that the footer does not overflow on content*/
+}
+
+footer h2 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-body{
-    color: white;
-    font-size: 25px;
-    
+footer nav {
+
 }
 
-div{
-    background-color: green;
-    color: black;
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+
+}
+
+footer nav ul li h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer nav ul li p {
+    font-family: Arial, Helvetica, sans-serif;
 }

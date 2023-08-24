@@ -101,17 +101,23 @@ main {
   margin: 5% 15% 5%;
   padding: 15px;
   /* flex: 1; */
+
+  border-radius: 25px;
   
 }
 
 main h1 {
   text-align: center;
   
+  margin: 25px 0px 25px;
+  
 }
 
 main .row {
   background-color: rgb(159, 174, 159);
   padding: 15px;
+
+  border-radius: 25px;
   
 
 }
@@ -126,38 +132,18 @@ main p {
   line-height: 1.6;  
 }
 
-/* @media only screen and (min-width: 800px) {
-  main {
-    margin: 5% 10% 5% 10%;
-    background-color: #de9191;
-  }
-  
-  main .row {
-    display: flex;
-    line-height: 1.6;
-  }
-  
-  .column-left{
-      flex: 40%;
-      
-      
-  }
-  
-  .column-right{
-    flex: 60%;
-    
-    
-  }
-} */
-
 
 main figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  
+  
+}
 
+main h2 {
+  text-align: center;
 }
 
 main figure h3 {
@@ -168,8 +154,10 @@ main figure img {
   display: block;
   padding: 10px;
 
-  width: 50%;
-  height: auto;
+  width: 20%;
+
+  border-radius: 25px;
+
 }
 
 main figure a {
